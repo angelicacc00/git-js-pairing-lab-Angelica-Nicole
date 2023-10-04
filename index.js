@@ -77,3 +77,11 @@ const triangleArea = (height, base) => {
 
 //Test
 //console.log(triangleArea(5, 7));
+
+//Function 9 
+const betweenTwentyAndForty = num =>{
+    return num >20 && num < 40;
+};
+
+//Test 
+//console.log(betweenTwentyAndForty(35));
