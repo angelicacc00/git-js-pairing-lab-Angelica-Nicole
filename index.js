@@ -98,4 +98,7 @@ const largest = (num1, num2, num3) => {
 };
 
 //Test
-console.log(largest(4, 6, 8));
+//console.log(largest(4, 6, 8));
+
+//bonus, nicole's take <3
+//11
