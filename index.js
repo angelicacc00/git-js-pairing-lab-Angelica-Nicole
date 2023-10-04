@@ -33,9 +33,19 @@ const multiplesOfThreeOrFive = () => {
 //Test 
 //multiplesOfThreeOrFive();
 
+//Function 4
 const untilNum = num => {
     for (i = 1; i <= num; i++){
         console.log(i);
     };
 };
-untilNum(9);
+
+//Test
+//untilNum(9);
+
+//Function 5
+const multiply = (num1, num2) => {
+    return num1 * num2;
+}
+//Test
+//console.log(multiply(5,6))
