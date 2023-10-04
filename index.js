@@ -31,4 +31,11 @@ const multiplesOfThreeOrFive = () => {
 };
 
 //Test 
-multiplesOfThreeOrFive();
+//multiplesOfThreeOrFive();
+
+const untilNum = num => {
+    for (i = 1; i <= num; i++){
+        console.log(i);
+    };
+};
+untilNum(9);
