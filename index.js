@@ -60,7 +60,7 @@ const add = (num1, num2) => {
 };
 
 //Test
-//console.log(add(3, 4))
+//console.log(add(3, 4));
 
 //Function 7
 const isNegative = (num) => {
@@ -68,4 +68,12 @@ const isNegative = (num) => {
 };
 
 //Test 
-console.log(isNegative(-90))
+//console.log(isNegative(-90));
+
+//Function 8
+const triangleArea = (height, base) => {
+    return height * base * .5;
+};
+
+//Test
+//console.log(triangleArea(5, 7));
