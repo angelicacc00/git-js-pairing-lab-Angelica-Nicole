@@ -49,3 +49,15 @@ const multiply = (num1, num2) => {
 }
 //Test
 //console.log(multiply(5,6))
+
+//Function 6
+const add = (num1, num2) => {
+    if (num1 === num2){
+        return (num1 + num2) * 3;
+    } else {
+        return num1 + num2;
+    };
+};
+
+//Test
+//console.log(add(3, 4));
