@@ -102,3 +102,65 @@ const largest = (num1, num2, num3) => {
 
 //bonus, nicole's take <3
 //11
+const printTime = () => {
+    const time = new Date();
+    return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`;
+};
+//console.log(printTime());
+
+//12
+const isLeapYear = year => {
+    if (year % 400 === 0) {
+        return true;
+    } else if (year % 100 === 0) {
+        return false;
+    } else if (year % 4 === 0){
+        return true;
+    } else {
+        return false;
+    };
+};
+//console.log(isLeapYear(1999));
+
+//13
+//Write a function absoluteNineteen to compute the absolute difference 
+//between a specified number and 19. Returns triple their absolute difference 
+//if the specified number is greater than 19.
+
+const getExtension = filename => {
+    return filename.slice(filename.indexOf('.'));
+};
+//console.log(getExtension('hello.txt'));
+
+//14
+const absoluteNineteen = num => {
+   if (num > 19) {
+    return (Math.abs(num - 19)) * 3;
+   } ;
+   return Math.abs(num - 19);
+};
+//console.log(absoluteNineteen(20));
+
+//15
+const switchLetters = string => {
+    let newString = string[string.length - 1] + string.slice(1, string.length - 1) + string[0];
+    return newString;
+};
+//console.log(switchLetters('hello world'));
+
+//16
+const changeString = string => {
+    let result = '';
+    for (let i = 0; i < string.length; i++) {
+        let char = string[i];
+        if (char >= 'a' && char <= 'z') {
+            result += String.fromCharCode(((char.charCodeAt(0) - 97 + 1) % 26) + 97);
+          } else if (char >= 'A' && char <= 'Z') {
+                result += String.fromCharCode(((char.charCodeAt(0) - 65 + 1) % 26) + 65);
+          } else {
+            result += char;
+          };
+        };
+    return result;
+};
+//console.log(changeString('meow meow!!'));
