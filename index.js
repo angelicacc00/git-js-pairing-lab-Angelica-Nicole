@@ -1,10 +1,11 @@
+/*Hey Angelica and Nicole! Thanks for the submission! You both showed a solid understanding of the logic of these problems. I provided some feedback on some of the code and main takeaways at the end.*/
 //Code your solutions in this file
 
 //Function 1
 const fiveToOneHundred = () => {
-    for(let i =5; i <= 100; i++) {
+    for(let i =5; i <= 100; i++) { //small thing but make sure to have space before and after operators (i =5)
         console.log(i);
-    }
+    }//if you are going to use semicolons, be consistent. 
 }
 //Test 
 //console.log(fiveToOneHundred());
@@ -58,6 +59,7 @@ const add = (num1, num2) => {
         return num1 + num2;
     };
 };
+// this code could have been refactored using the ternary operator.
 
 //Test
 //console.log(add(3, 4));
@@ -79,7 +81,7 @@ const triangleArea = (height, base) => {
 //console.log(triangleArea(5, 7));
 
 //Function 9 
-const betweenTwentyAndForty = num =>{
+const betweenTwentyAndForty = num =>{// there is a typo in function name. (betweenTwentyAndFourty)
     return num >20 && num < 40;
 };
 
@@ -96,6 +98,7 @@ const largest = (num1, num2, num3) => {
         return num3;
     };
 };
+//This could have been refactored using the Math.max method. Look into it and see if you can redo it (optional).
 
 //Test
 //console.log(largest(4, 6, 8));
@@ -160,3 +163,11 @@ const changeString = string => {
     return result;
 };
 //console.log(changeString('meow meow!!'));
+
+/*
+Hey Angelica and Nicole.
+Fantastic work here. Your code is 99.5% clean and solves all the problems. I gave you some feedback on how to clean up your code and what you can do to elevate your code to the next level. 
+
+Great work!!
+
+*/
