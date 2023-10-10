@@ -131,10 +131,10 @@ triangleArea(6, 8)    //returns 24
 
 9. Write a function `betweenTwentyAndFourty` that takes in a number parameter and checks whether a given integer is within 20 to 40. It **returns** `true` if it is and `false` if not.
 ```
-betweenTwentyAndFourty(4)      //return false
+betweenTwentyAndFourty(20)      //return false
 betweenTwentyAndFourty(21)     //return true
-betweenTwentyAndFourty(99)     //return true
-betweenTwentyAndFourty(101)    //return false
+betweenTwentyAndFourty(39)     //return true
+betweenTwentyAndFourty(40)    //return false
 ```
 
 10. Write a function `largest` that takes in three number parameters and **returns** the largest of the values.
